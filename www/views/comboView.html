@@ -1,0 +1,10 @@
+
+<div ng-controller="appCtrl" id="barrs">
+
+<p>{{data}}</p>
+  <md-button ng-click="showForm()" class="md-raised md-primary">Try Again</md-button>
+</div>
+<p>{{data}}</p>
+<div class="alert" ng-show="data.error">
+  Error ({{data.error.status}}).
+</div>

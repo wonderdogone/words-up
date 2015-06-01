@@ -1,0 +1,24 @@
+{
+  "name": "words",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node --harmony server.js",
+    "test": "mocha --harmony"
+  },
+  "dependencies": {
+    "bluebird": "^2.9.27",
+    "highland": "^2.5.1",
+    "koa": "^0.21.0",
+    "koa-json": "^1.1.1",
+    "koa-logger": "^1.2.2",
+    "koa-route": "^2.4.1",
+    "koa-static": "^1.4.9"
+  },
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "mocha": "^2.2.5",
+    "should": "^6.0.3",
+    "supertest": "^1.0.1"
+  }
+}

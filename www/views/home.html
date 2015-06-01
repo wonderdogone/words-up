@@ -1,0 +1,19 @@
+
+<div class="">
+  <div class="output">
+    <h1>{{solve()}}</h1>
+    <p>Make TheseCombos:</p><h1>{{data}}</h2>
+  </div>
+  <ul class="input-pad">
+    <li ng-repeat='input in pad' on-touch='add(input)' ng-class='{clear: input == "clear"}'>{{input}}</li>
+  </ul>
+
+</div>
+
+<div>
+  <md-button ng-click="showCombo()" class="md-raised md-primary" id="quick">Word Check</md-button>
+</div>
+
+<div>
+  <md-button ng-click="reset()" class="md-raised md-primary" id="quick">Reset</md-button>
+</div>
